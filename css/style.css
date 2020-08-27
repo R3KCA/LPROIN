@@ -1,0 +1,94 @@
+/*общий*/
+div.wrap{
+	     margin     : 0 auto; 		 
+		 width      : 100%;/*ширина*/
+		}
+
+/*шапка*/
+div.header{
+	        width          : 100%;/*ширина*/ 
+		    height		   : 20%; /*высота*/ 
+	        background     : #FFDAB9 url(/img/bg.jpg);/*цвет*/
+			padding        : 3%;
+		  }
+/*размер_h1*/ 
+div.h1{
+       font-family : arial;
+	   font-size   : 30px; 
+	   color       : #FFF;
+	  }
+	  
+/*меню*/
+div.menu{
+	     text-align : left;
+	     background : #87CEEB;
+		 width      : 100%;/*ширина*/
+         padding    : .5%;
+		}
+		
+/*шрифт меню*/
+div.h3{
+	   font-family : arial;
+	   font-size   : 25px;
+       color       : #FFF; 
+	  }	
+	  
+.mainmenubtn 
+      {
+       background-color: red;
+       color: white;
+       border: none;
+       cursor: pointer;
+        padding:20px;
+        margin-top:20px;
+       }
+
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}	
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+          }
+		  
+		  .dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+/*тело*/		  
+div.body{
+	       background  : #FFF;
+		   color       : #000;
+		   font-family : arial;
+		   font-size   : 14px;
+        }
+ 		
+/*контент*/
+div.content{
+	        margin     : 10px 1000px 10px 270px;/*положение*/
+	        float      : left;
+			background : #ffffff;
+			width      : 90%;
+			/*height     : 100%;  */
+			text-align : left;
+	       }
+div.clear{
+	       clear : both;
+         }
+/* финишная */
+div.footer{
+	       text-align : right;
+		   background : #6495ED;
+		   width      : 100%;
+		   height     : 50px;
+          }
+
+		  
