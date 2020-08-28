@@ -20,33 +20,29 @@
 <!-- общий -->
 <div class = "wrap"> 
 
-   <!--шапка-->
-   <div class = "header">
-      <div class = "h1">
-	  <!-- <a href = "index.php">-->
- 		<table border = "0" align = "center">
-		   <td><img  width="100" height="100" src ="/img/logo.png"></td>	   
-    	   <td>ЛИСКИНСКАЯ РАЙОННАЯ ОРГАНИЗАЦИЯ ВОРОНЕЖСКОЙ ОБЛАСТИ </br> ПРОФСОЮЗА РАБОТНИКОВ НАРОДНОГО ОБРАЗОВАНИЯ И НАУКИ РФ</td>
-		   <td><img  width="90" height="100" src ="/img/lsk.png"></td>	
-		   <td>  
-		      <p>
-			     <input type  ="Login"    name  = "Login"    placeholder="Логин">
-			     <input type  ="Password" name  = "Password" placeholder="Пароль">
-				 <input type  ="submit"  value = "Войти"     name='entrance'>
-				 <div   class ="frontH">Зарегистрироваться</div> 
-			  </p> 
-		   </td>
+ <!--шапка-->
+ <div class = "header">
+     <div class = "h1">
+	    <table border = "0" align = "center"> 
+          <td><img  width="100" height="100" src ="/img/logo.png"></td>	   
+    	  <td>ЛИСКИНСКАЯ РАЙОННАЯ ОРГАНИЗАЦИЯ ВОРОНЕЖСКОЙ ОБЛАСТИ </br> ПРОФСОЮЗА РАБОТНИКОВ НАРОДНОГО ОБРАЗОВАНИЯ И НАУКИ РФ</td>
+		  <td><img  width="90" height="100" src ="/img/lsk.png"></td>	
+		  <td>  
+		    <ul>
+		     <li>8 (47391) 4-00-00</li>
+			 <li>lskprof@yandex.ru</li>
+		    </ul>
+		  </td>
         </table> 
-	   <!--</a>-->
 	 </div>	 
-     </div>
+ </div>
  
  <!--меню-->
   <ul id="navbar">
        <!--ветка все новости-->
 	   <li><a href="#">Все новости</a>
 	   <ul>
-          <li><a href="/page/SezonJob.php">Внутрисезонная работа</a></li>
+          <li><a href="http://google.ru">Внутрисезонная работа</a></li>
           <li><a href="#">Вести из организаций</a></li>
           <li><a href="#">Социальное партнерство</a></li>
 		  <li><a href="#">Социально-трудовые права работников</a></li>
@@ -104,17 +100,12 @@
          </ul>  
 	   </li>
     </ul>
-   </div>
+       бла бла бла.</p>
+  </div>
  </div>
+	
 
-<div class = "body">
-   
-</div>
-<!--
-
-<div class = "footer">
-     	2020 СвоеПО
-</div>-->
+<!--<div class = "footer">-->
 </div>
 </body>
 
