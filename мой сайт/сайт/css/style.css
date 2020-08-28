@@ -1,0 +1,47 @@
+/*общий размер*/
+div.wrap{
+	      background : #FFF url(/img/bg.jpg); /* фоновый рисунок */
+		  width      : 100%;   /*ширина*/
+		}
+/* шапка */
+div.header{
+	        background     : #6495ED;/*цвет*/
+			width          : 100%;   /*ширина*/ 
+ 			height         : 150px;  /*высота*/
+			vertical-align : middle; /*положение*/		
+          }
+/* тело */		  
+div.body{
+	       background  : #FFF ;
+		   color       : #000;
+		   font-family : arial;
+		   font-size   : 14px;
+        } 
+/* меню */
+div.menu{
+	     text-align : left;
+		 margin     : 10px 80px 10px 170px; /*положение*/
+		 background : #ffeedd;
+		 width      : 15%;   /*ширина*/
+         height		: 500px; /*высота*/ 
+        }
+/*контент*/
+div.content{
+	        margin     : 0px 1000px 0px 250px; /*положение*/
+	        float      : left;
+			background : #ffffff;
+			width      : 1100px;
+			height     : 100%;
+			text-align : left;
+	       }
+div.clear{
+	       clear : both;
+         }
+/* финишная */
+div.footer{
+	       text-align : right;
+		   background : #6495ED;
+		   width      : 100%;
+		   height     : 50px;
+          }
+		  

@@ -33,6 +33,7 @@
 			     <input type  ="Login"    name  = "Login"    placeholder="Логин">
 			     <input type  ="Password" name  = "Password" placeholder="Пароль">
 				 <input type  ="submit"  value = "Войти"     name='entrance'>
+				 <? include ("/php/db.php"); ?>
 				 <div   class ="frontH">Зарегистрироваться</div> 
 			  </p> 
 		   </td>
